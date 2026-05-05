@@ -25,6 +25,11 @@ What this step does:
 - Create a new GitHub repository named `sql-decision-analysis`.
 - Do not add README/license from GitHub UI (already included locally).
 
+GH CLI alternative (recommended):
+```powershell
+gh repo create <YOUR_USER>/sql-decision-analysis --public --source . --remote origin --push
+```
+
 Note:
 - This requires GitHub authentication in browser.
 - In this session, remote auto-creation was blocked because no active GitHub login/token is available.
@@ -39,6 +44,11 @@ git push -u origin main
 One-command alternative:
 ```powershell
 .\publish.ps1 -RemoteUrl <YOUR_GITHUB_REPO_URL>
+```
+
+If `gh repo create ... --push` creates the repo but does not push because `origin` already exists:
+```powershell
+git push -u origin main
 ```
 
 What this step does:

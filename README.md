@@ -45,6 +45,10 @@ pwsh -ExecutionPolicy Bypass -File tools/install-duckdb-local.ps1
 - Deliberate practice: EXERCISES.md
 - Executive narrative: analysis/decision-memo.md
 
+## Training Track
+- Full DA/DS/ML progression: DATA_DS_ML_TRAINING_PLAN.md
+- Start here for live mentoring: LESSON_01_DATA_ANALYSIS.md
+
 ## Suggested Interview Pitch (30s)
 I built a SQL decision analysis workflow to diagnose growth quality, not just growth volume. I used CTEs and window functions to evaluate trend, channel and segment quality, concentration risk, and discount leakage. The output was a decision memo recommending channel reallocation and discount guardrails backed by quantified evidence.
 
